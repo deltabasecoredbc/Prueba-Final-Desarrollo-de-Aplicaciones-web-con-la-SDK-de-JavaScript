@@ -1,0 +1,46 @@
+<!-- 2.1 Declaración y configuración básica del documento -->
+<!doctype html>
+<html lang="es">
+  <!-- 2.2 Configuración HEAD -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>
+      Prueba Final Desarrollo de Aplicaciones web con la SDK de JavaScript - DBC
+    </title>
+
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.34/esri/themes/light/main.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://js.arcgis.com/4.34/"></script>
+  </head>
+  <body>
+    <!-- 2.3 Estructura visual superior (HEADER) -->
+    <header>
+      <img
+        src="https://www.arcgis.com/sharing/rest/content/items/0adf321e10dd43fca58f6bf7207623c1/data?"
+        alt="Logo Esri"
+        class="logo-esri"
+      />
+      <div class="header-text">
+        <h1>Red Natura 2000 y Playas 2015</h1>
+        <p>Dibuja polígonos y visualiza las intersecciones con Red Natura.</p>
+      </div>
+    </header>
+    <!-- 2.4 Contenedor principal del mapa -->
+    <main>
+      <div id="viewDiv"></div>
+    </main>
+    <!-- 2.5 Pie de página y carga del script -->
+    <footer>
+      <p>&copy; 2026 Proyecto GIS_MasterGISOnlineEsri_DBC</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
